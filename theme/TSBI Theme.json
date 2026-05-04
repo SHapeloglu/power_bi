@@ -1,7 +1,0 @@
-{ 
-    "name": "TSBI - Technological Strategy for Business Intelligence", 
-    "dataColors": ["#4477B5", "#F2C811", "#000000", "#42B751", "#C4402D", "#2E507A", "#AF930A", "#369642", "#922F21", "#54D028", "#D0F540", "#057BE0"],
-    "background":"#FFFFFF",
-    "foreground": "#4477B5",
-    "tableAccent": "#2E507A"
-}
