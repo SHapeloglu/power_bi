@@ -1,0 +1,145 @@
+{
+  "name": "PowerBi Theme by POINT.",
+  "icons": [],
+  "dataColors": [
+    "#3D405B",
+    "#F2CC8F",
+    "#E07A5F",
+    "#81B29A",
+    "#F4F1DE"
+  ],
+  "tableAccent": "#F2CC8F",
+  "good": "#81B29A",
+  "neutral": "#F4F1DE",
+  "bad": "#E07A5F",
+  "maximum": "#3D405B",
+  "center": "#F2CC8F",
+  "minimum": "#81B29A",
+  "foreground": "#3D405B",
+  "foregroundNeutralSecondary": "#81B29A",
+  "backgroundLight": "#F2CC8F",
+  "foregroundNeutralTertiary": "#F2CC8F",
+  "background": "#F4F1DE",
+  "backgroundNeutral": "#3D405B",
+  "textClasses": {
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#3D405B",
+      "fontSize": 28
+    },
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#3D405B",
+      "fontSize": 18
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#3D405B",
+      "fontSize": 28
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "color": "#3D405B",
+      "fontSize": 10
+    },
+    "smallLightLabel": {
+      "color": "#3D405B",
+      "fontSize": 9
+    },
+    "largeLightLabel": {
+      "color": "#3D405B",
+      "fontSize": 12
+    },
+    "boldLabel": {
+      "fontFace": "Segoe UI Bold"
+    },
+    "lightLabel": {
+      "color": "#3D405B"
+    },
+    "smallLabel": {
+      "fontSize": 9
+    },
+    "largeLabel": {
+      "fontSize": 12
+    },
+    "semiboldLabel": {
+      "fontFace": "Segoe UI"
+    },
+    "largeTitle": {
+      "fontSize": 18
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "visualTooltip": [
+          {
+            "titleFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 3,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "background": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": {
+              "solid": {
+                "color": "#3D405B"
+              }
+            },
+            "fontSize": 18,
+            "fontFamily": "Segoe UI Semibold",
+            "bold": true,
+            "italic": false,
+            "underline": false
+          }
+        ],
+        "license": [
+          {
+            "key": "ZoomCharts Drill Down Visuals Developer License (valid until: 2026-12-05);PBID-gye0n3753#EHy5F8fazulWye/SQQmir22UGfjJyaR6o3+SrUnCd6VSh831RQfVnT34/YGF643WBBrfSyKezHg1bhrBDMu3faqaCCXE4bukkb7JuUAf8T4IjX3H5/8BfDxLeGE8fftP/ugvVUV9BKcJehSa2g2trkck0zi46XBeZ",
+            "hash": "iis3ozy+hqqai7rrd7lgsgZs3vy2u4q/DTwfF948De1yYJ1iTyhPJMT7E+G9J9WTFhN+pbvy16EXi5jdXxUdpZkgNJyKRKQtaBGtrOu8Kc3TOztMAdRkLc9UioDG6769SlqG8qnbxJfG+u1MNzOF3K0HkPgExz5LH+C/9px4hD0Z3OKv1iRKg=="
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "fontSize": 28,
+            "fontFamily": "Times New Roman",
+            "bold": true,
+            "italic": false,
+            "underline": false
+          }
+        ]
+      }
+    }
+  }
+}
