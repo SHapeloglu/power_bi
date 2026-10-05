@@ -1,54 +1,26 @@
 # session.md — power_bi Oturum Günlüğü
 
-Her çalışma oturumunda buraya kısa bir kayıt düşülür: ne yapıldı, hangi kararlar alındı, sıradaki adım ne. Amaç, bir sonraki oturuma (veya başka bir geliştiriciye/Claude örneğine) hızlıca bağlam aktarmak.
-
----
-
-## Şablon
-
-```markdown
-## YYYY-AA-GG
-
-**Yapılanlar:**
-- ...
-
-**Alınan kararlar / neden:**
-- ...
-
-**Açık sorunlar / bilinen eksikler:**
-- ...
-
-**Sıradaki adım:**
-- ...
-```
-
 ---
 
 ## 2026-10-05
 
-**Yapılanlar:**
-- Eksik proje çalışma dosyaları oluşturuldu: `architect.md`, `backlog.md`, `CLAUDE.md`, `session.md`, `task.md`.
-- İçerik; README, dosya yapısı, bağımlılık dosyaları ve git geçmişinden çıkarıldı.
+- Şablondan üretilmiş çalışma dosyaları içerik envanteri çıkarılarak yeniden yazıldı.
+- Envanter: ~147 tema JSON, ~51 şablon .pbix, ~38 WOW .pbix; 4 tema JSON'u ayrıştırılamıyor; repo public ve ~217 MB.
 
-**Açık sorunlar / bilinen eksikler:**
-- Repo kökünde `.gitignore` yok — `venv/`, `__pycache__/`, `.env`, build çıktıları için eklenmeli.
-- README yok — kurulum/çalıştırma adımları belgelenmeli.
-- Otomatik test bulunamadı — kritik akışlar için en azından duman (smoke) testleri eklenmeli.
+---
 
-**Sıradaki adım:**
-- `CLAUDE.md` ve `architect.md` içeriğini gözden geçirip proje sahibinin bilgisiyle tamamla.
+## 2026-05-04
 
-### Bu tarihten önceki son commit'ler (referans)
+- Koleksiyon GitHub web arayüzüyle yüklendi.
 
-- 2026-05-04 — Add files via upload
-- 2026-05-04 — Add files via upload
-- 2026-05-04 — Add files via upload
-- 2026-05-04 — Add files via upload
-- 2026-05-04 — Add files via upload
-- 2026-05-04 — Add files via upload
-- 2026-05-04 — Add files via upload
-- 2026-05-04 — Create 2022-wk42-data.pbix
-- 2026-05-04 — Add files via upload
-- 2026-05-04 — Add files via upload
-- 2026-05-04 — Add files via upload
-- 2026-05-04 — Create 001-Interview-Insights.pbix
+---
+
+### Kayıt Şablonu
+
+```markdown
+## YYYY-AA-GG
+**Yapılanlar:** ...
+**Kararlar / neden:** ...
+**Açık sorunlar:** ...
+**Sıradaki adım:** ...
+```

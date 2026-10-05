@@ -1,21 +1,15 @@
-# backlog.md — power_bi Fikir / Özellik Havuzu
+# backlog.md — power_bi Fikir Havuzu
 
-Bu dosya henüz önceliklendirilmemiş, "bir gün yapılabilir" fikirler ve özellik talepleri içindir. Bir fikir somutlaşıp sıraya girdiğinde buradan çıkar, `task.md`ye taşınır.
-
-## Fikirler
-
-_(henüz boş — yeni bir fikir geldiğinde aşağıdaki şablonla ekle)_
-
-## Koddaki TODO / FIXME Notları
-
-_(kodda TODO/FIXME notu bulunamadı)_
+- Tema JSON'larından otomatik önizleme sayfası (renk paletleri yan yana) — statik HTML.
+- Kendi kurumsal tema şablonu (olap / bi danışmanlık renkleri) + varyantlar (açık/koyu).
+- `wow/` çözümlerinden teknik ipuçları özeti (DAX kalıpları, görsel teknikleri) — eğitim materyali.
+- Git LFS'e geçiş veya .pbix dosyalarını Release ekleri olarak taşıma (repo boyutu).
 
 ## Ekleme Şablonu
 
 ```markdown
 ### Başlık
-
-- **Kategori:** yeni özellik / iyileştirme / teknik borç / araştırma
-- **Neden istendi:** kısa gerekçe
-- **Notlar:** büyüklük tahmini, bağımlılıklar, riskler
+- **Kategori:** içerik / katalog / araç
+- **Neden:** kısa gerekçe
+- **Notlar:** kaynak, lisans
 ```

@@ -1,41 +1,22 @@
-# CLAUDE.md
+# CLAUDE.md — power_bi (rapor & tema koleksiyonu)
 
-Bu dosya, bu proje üzerinde çalışırken Claude'un (Claude Code dahil) izlemesi gereken bağlamı ve kuralları içerir.
+Kod reposu değil: Power BI eğitim/danışmanlık için toplanmış **örnek rapor (.pbix) ve tema (.json)** arşivi. Çoğunluğu topluluk kaynaklı (Workout Wednesday, Fabric Days, PBI DataViz World Championships, blog/eğitim dosyaları).
 
-## Proje
+- GitHub: https://github.com/SHapeloglu/power_bi — **PUBLIC repo**, ~217 MB `.git` (2026-05-04 web yüklemeleri)
+- Mimari (klasör düzeni): `architect.md` · Görevler: `task.md` · Fikirler: `backlog.md` · Günlük: `session.md`
 
-**power_bi** — _README'de açıklama bulunamadı. Projenin amacını buraya bir-iki cümleyle yazın._
+## İçerik
 
-- GitHub: https://github.com/SHapeloglu/power_bi
-
-## Teknoloji Yığını
-
-- Power BI (pbix/DAX)
-
-## Önemli Dosyalar
-
-_(belirgin giriş noktası bulunamadı)_
-
-Mimari ayrıntılar için bkz. `architect.md`.
-
-## Sık Kullanılan Komutlar
-
-```bash
-# Henüz belgelenmiş komut yok — kurulum/çalıştırma adımlarını buraya ekleyin.
-```
-
-## Kurallar
-
-- `.pbix` dosyaları ikili (binary) formattadır; diff alınamaz — değişiklikleri commit mesajında açıkla.
-- `.env`, parola, token ve API anahtarlarını asla commit etme.
-- Her çalışma oturumunun sonunda `session.md`ye kısa kayıt düş; görev durumunu `task.md`de güncelle.
-- Önceliklendirilmemiş fikirleri `backlog.md`ye yaz; somutlaşınca `task.md`ye taşı.
-
-## Çalışma Dosyaları
-
-| Dosya | Amaç |
+| Klasör | İçerik |
 |---|---|
-| `architect.md` | Mimari ve dizin yapısı referansı |
-| `task.md` | Aktif / devam eden / tamamlanan görevler |
-| `backlog.md` | Önceliklendirilmemiş fikir ve teknik borç havuzu |
-| `session.md` | Oturum günlüğü — her oturum sonunda güncellenir |
+| `theme/` | ~147 tema JSON'u (+ önizleme PNG/JPG) — Power BI Desktop → Görünüm → Temalar → Temaya gözat |
+| `templates/` | ~51 örnek dashboard .pbix (HR, satış, finans, otel, çağrı merkezi, IMF, takvim, KPI kartları, teknik ipuçları…) |
+| `wow/` | ~38 Workout Wednesday / yarışma çözüm dosyası (2021–2026) |
+
+## Çalışma Kuralları
+
+- `.pbix` ikili dosya — burada açılıp düzenlenemez; yalnız Power BI Desktop (Windows). Claude'un yapabileceği: tema JSON'larını okuma/düzenleme/doğrulama, envanter ve kataloglama.
+- Tema JSON'larında UTF-8 BOM yaygın; okurken `utf-8-sig` kullan. Yazarken BOM'suz UTF-8 de Power BI tarafından kabul edilir.
+- **Public repo + üçüncü taraf dosyalar:** yeni dosya eklerken müşteri verisi içeren .pbix koyma; topluluk dosyalarının kaynağını/lisansını not et.
+- Büyük ikili dosyalar repo boyutunu şişiriyor; yeni büyük .pbix için Git LFS düşün.
+- Oturum sonunda `session.md`'ye kayıt düş, `task.md`'yi güncelle.
