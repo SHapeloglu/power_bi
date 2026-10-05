@@ -5,7 +5,7 @@
 ## 2026-10-05
 
 - Şablondan üretilmiş çalışma dosyaları içerik envanteri çıkarılarak yeniden yazıldı.
-- Envanter: ~147 tema JSON, ~51 şablon .pbix, ~38 WOW .pbix; 4 tema JSON'u ayrıştırılamıyor; repo public ve ~217 MB.
+- Envanter: ~146 tema JSON, ~51 şablon .pbix, ~38 WOW .pbix; 3 tema JSON'u ayrıştırılamıyor; repo public ve ~217 MB.
 
 ---
 

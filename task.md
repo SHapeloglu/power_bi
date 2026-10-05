@@ -15,5 +15,5 @@ _(şu anda boş)_
 
 ## ✅ Tamamlanan
 
-- [x] 2026-10-05 — Çalışma dosyaları içerik envanteri çıkarılarak yeniden yazıldı; 147 temadan 143'ü geçerli JSON
+- [x] 2026-10-05 — Çalışma dosyaları içerik envanteri çıkarılarak yeniden yazıldı; temalardan 3'ü geçersiz JSON
 - [x] 2026-05-04 — Koleksiyon yüklendi

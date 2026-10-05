@@ -9,7 +9,7 @@ Kod reposu değil: Power BI eğitim/danışmanlık için toplanmış **örnek ra
 
 | Klasör | İçerik |
 |---|---|
-| `theme/` | ~147 tema JSON'u (+ önizleme PNG/JPG) — Power BI Desktop → Görünüm → Temalar → Temaya gözat |
+| `theme/` | ~146 tema JSON'u (+ önizleme PNG/JPG) — Power BI Desktop → Görünüm → Temalar → Temaya gözat |
 | `templates/` | ~51 örnek dashboard .pbix (HR, satış, finans, otel, çağrı merkezi, IMF, takvim, KPI kartları, teknik ipuçları…) |
 | `wow/` | ~38 Workout Wednesday / yarışma çözüm dosyası (2021–2026) |
 
